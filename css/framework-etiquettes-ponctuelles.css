@@ -1,0 +1,68 @@
+/* 
+    Created on : 04-janv.-2015, 16:40:38
+    Author     : Pascal
+    IEPSCSS : Framework CSS sémantique en français - v 1.0
+*/
+
+@charset "UTF-8";
+
+/* --------------------------------------------------
+** ETIQUETTES PONCTUELLES RE-UTILISABLES
+** --------------------------------------------------
+*/
+    /* Les textes */
+        /* Taille des textes */
+            .texte-taille-grand {
+              font-size: 3em;
+            }
+
+            .texte-taille-petit {
+              font-size: 0.8em;
+            }
+
+        /* Couleur des textes */
+            .texte-couleur-principale {
+              color: #A65500;
+            }
+
+            .texte-couleur-secondaire {
+              color: #024E68;
+            }
+
+        /* Alignement des textes */
+            .texte-alignement-centre {
+              text-align: center;
+            }
+
+            .texte-alignement-droite {
+              text-align: right;
+            }
+
+            .texte-alignement-justifie {
+              text-align: justify;
+            }
+
+    /* Les boites */
+        /* Alignement des boites */
+            .boite-alignement-centre {
+              margin: auto;
+            }
+
+            .boite-alignement-gauche {
+              float: left;
+              margin-right: 5%;
+              margin-bottom: 5%;
+            }
+
+            .boite-alignement-droite {
+              float: right;
+              margin-left: 5%;
+              margin-bottom: 5%;
+            }
+            
+            .clear-force:after {
+                content: '';
+                display: block;
+                visibility: hidden;
+                clear: both;
+            }
