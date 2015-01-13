@@ -1,0 +1,41 @@
+/* 
+    Created on : 13-janv.-2015, 11:40:59
+    Author     : Pascal
+    IEPSCSS : Framework CSS sémantique en français - v 1.0
+*/
+
+    /* Taille des textes */
+        .texte-taille-grand {
+          font-size: 3em;
+        }
+
+        .texte-taille-petit {
+          font-size: 0.8em;
+        }
+
+    /* Styles des textes */
+        .texte-style-italique {
+            font-style: italic;
+        }
+
+    /* Couleur des textes */
+        .texte-couleur-principale {
+          color: #A65500;
+        }
+
+        .texte-couleur-secondaire {
+          color: #024E68;
+        }
+
+    /* Alignement des textes */
+        .texte-alignement-centre {
+          text-align: center;
+        }
+
+        .texte-alignement-droite {
+          text-align: right;
+        }
+
+        .texte-alignement-justifie {
+          text-align: justify;
+        }

@@ -1,0 +1,52 @@
+/* 
+    Created on : 13-janv.-2015, 11:41:19
+    Author     : Pascal
+     IEPSCSS : Framework CSS sémantique en français - v 1.0
+*/
+
+    /* Couleur des boites */
+        .boite-couleur-principale {
+            background: #f2f7fa;
+        }
+        
+        
+    /* Alignement des boites */
+        .boite-alignement-centre {
+          margin: auto;
+        }
+
+        .boite-alignement-gauche {
+          float: left;
+          margin-right: 5%;
+          margin-bottom: 5%;
+        }
+
+        .boite-alignement-droite {
+          float: right;
+          margin-left: 5%;
+          margin-bottom: 5%;
+        }
+
+        .clear-force:after {
+            content: '';
+            display: block;
+            visibility: hidden;
+            clear: both;
+        }
+
+    /* Bordures des boîtes */
+        .boite-bordure-large {
+            border: #90b6c1 5px solid;
+            padding: 20px;
+        }
+        .boite-bordure-nulle {
+            border: none;
+        }
+        .boite-bordure-arrondie {
+            -moz-border-radius : 20px;
+            -ms-border-radius : 20px;
+            -webkit-border-radius : 20px;
+            -o-border-radius : 20px;
+            border-radius: 20px;
+        }
+

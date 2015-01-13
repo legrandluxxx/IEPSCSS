@@ -1,0 +1,29 @@
+/* 
+    Created on : 13-janv.-2015, 11:41:36
+    Author     : Pascal
+     IEPSCSS : Framework CSS sémantique en français - v 1.0
+*/
+
+        .bouton-submit, input[type='submit'] {
+            background: #93b3c0;
+            color: #c8e2ef;
+            -moz-border-radius : 5px;
+            -ms-border-radius : 5px;
+            -webkit-border-radius : 5px;
+            -o-border-radius : 5px;
+            border-radius: 5px;
+            padding: 5px 30px;
+            border: none;
+        }
+        .bouton-submit:hover, input[type='submit']:hover {
+            background: #608090;
+        }
+        .label-requis {
+            color: red;
+            vertical-align: super;
+        }
+
+        input:focus, textarea:focus {
+            background: #608090;
+            border-color: #90b6c1;
+        }

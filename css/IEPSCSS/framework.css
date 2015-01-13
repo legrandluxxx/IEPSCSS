@@ -4,5 +4,8 @@
     IEPSCSS : Framework CSS sémantique en français - v 1.0
 */
 
-@import url(framework-etiquettes-ponctuelles.css);
+@import url(framework-textes.css);
+@import url(framework-boites.css);
+@import url(framework-formulaires.css);
+
 @import url(framework-etiquettes-globales.css);
