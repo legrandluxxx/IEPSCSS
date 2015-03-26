@@ -1,0 +1,23 @@
+@charset "UTF-8";
+// 
+//    IEPSCSSFramework
+//    Version 0.0.1
+//    Created on : 10-mars-2015, 10:36:59
+//    Author     : Pascal
+//
+//    IEPSCSS/inc/variables.scss
+//    Variables du framework
+
+
+// Couleurs
+    $couleur-principale: #123456;
+    $couleur-secondaire: #234567;
+
+// Dimensions des écrans 
+    $small: 480px;
+    $medium: 720px;
+    $large: 1024px;
+
+// Paramètres des grilles responsives
+    $conteneur-fixe: 960px;
+    $espacement-colonnes: 3%;

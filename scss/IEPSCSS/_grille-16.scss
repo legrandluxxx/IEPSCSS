@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* 
+    IEPSCSSFramework
+    Version 0.0.1
+    Created on : 10-mars-2015, 10:36:59
+    Author     : Pascal
+
+    grille-16.css
+    Mise en place d'une grille responsive 960px/fluide en 16 colonnes
+*/
+
+@import 'variables.scss';
+@import 'mixins.scss';
+
+$nbre-colonnes: 16;
+$largeur-unitaire: 100%/$nbre-colonnes;
+
+    /* Les conteneurs */
+        .conteneur-fluide, .conteneur-960 {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 0;
+            > * {
+                display: inline-block;
+                width: 100%;
+                box-sizing: border-box;
+                font-size: 1rem;
+                vertical-align: top; 
+                margin-left: $espacement-colonnes; // Marche pas
+            }
+            > *.debut-ligne{
+                margin-left: 0; // Marche pas si on passe à la ligne !!!
+            }
+        }
+
+        .conteneur-fixe {
+            max-width: $conteneur-fixe;
+            margin: auto;
+        }
+
+    /* Les items */
+    
+    /* Pour les écrans small */
+        @media screen and (min-width: 0) {
+            /* Dimension des items  */    
+                @for $i from 1 through $nbre-colonnes {
+                    .small-#{$i} {
+                        width: ($largeur-unitaire * $i) - $espacement-colonnes;
+                        &.debut-ligne {
+                            width: ($largeur-unitaire * $i);
+                        }
+                    }
+                }
+                
+            /* Décalages */
+                @for $i from 1 through $nbre-colonnes {
+                    .small-decalage-#{$i} {
+                        margin-left: $largeur-unitaire * $i; 
+                    }
+                }
+        }
+    
+    /* Pour les écrans medium */
+        @media screen and (min-width: $small) {
+            /* Dimension des items  */    
+                @for $i from 1 through $nbre-colonnes {
+                    .medium-#{$i} {
+                        width: (6.25% * $i) - $espacement-colonnes;
+                        &.debut-ligne {
+                            width: ($largeur-unitaire * $i);
+                        }
+                    }
+                }
+                
+                /* Décalages */
+                @for $i from 1 through $nbre-colonnes {
+                    .medium-decalage-#{$i} {
+                        margin-left: $largeur-unitaire * $i; 
+                    }
+                }
+            
+        }
+    
+        /* Pour les écrans larges */
+        @media screen and (min-width: $medium) {
+            /* Dimension des items */         
+                @for $i from 1 through $nbre-colonnes {
+                    .large-#{$i} {
+                        width: ($largeur-unitaire * $i) - $espacement-colonnes; 
+                        &.debut-ligne {
+                            width: ($largeur-unitaire * $i);
+                        }
+                    }
+                }
+                
+            /* Décalages */
+                @for $i from 1 through $nbre-colonnes {
+                    .large-decalage-#{$i} {
+                        margin-left: $largeur-unitaire * $i; 
+                    }
+                }      
+        }
+        
+    

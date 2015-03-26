@@ -1,8 +1,43 @@
+@charset "UTF-8";
 /* 
-    Created on : 13-janv.-2015, 11:41:19
+    IEPSCSSFramework
+    Version 0.0.1
+    Created on : 10-mars-2015, 10:36:59
     Author     : Pascal
-     IEPSCSS : Framework CSS sémantique en français - v 1.0
+
+    boites.css
+    Spécifications des objets de type block et inline-block
 */
+
+    /* Couleur des boites */
+        .boite-couleur-1 {
+            background: #1a2530;
+        }
+        .boite-couleur-2 {
+            background: #2c3e50;
+        }
+        .boite-couleur-3 {
+            background: #34495e;
+        }
+        .boite-couleur-4 {
+            background: #e74C3C;
+        }
+        .boite-couleur-neutre {
+            background: #555;
+        }
+        .boite-couleur-1,
+        .boite-couleur-2,
+        .boite-couleur-3,
+        .boite-couleur-4,
+        .boite-couleur-neutre {
+            padding: 10px;
+        }
+        
+    /* Alignement du contenu des boites */
+        .boite-contenu-centre {
+            text-align: center;
+        }
+
 
     /* Couleur des boites */
         .boite-couleur-principale {

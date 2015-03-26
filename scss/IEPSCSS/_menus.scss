@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* 
+    IEPSCSSFramework
+    Version 0.0.1
+    Created on : 10-mars-2015, 10:36:59
+    Author     : Pascal
+
+    menus.css
+    Gestion des menus
+*/
+
+    /* Menus horizontaux */
+        .menu-horizontal > ul, .menu-horizontal {
+            list-style: none;
+        }
+        .menu-horizontal>ul>li, .menu-horizontal>li {
+            display: inline-block;
+        }
+        .menu-horizontal>ul>li a, .menu-horizontal>li a {
+            display: block;
+        }
+        

@@ -1,0 +1,771 @@
+@charset "UTF-8";
+/*
+    IEPSCSSFramework
+    Version 0.0.1
+    Created on : 10-mars-2015, 10:36:59
+    Author     : Pascal
+*/
+/* 
+    Created on : 04-janv.-2015, 16:40:38
+    Author     : Pascal
+    IEPSCSS : Framework CSS sémantique en français - v 0.1.0
+*/
+/* 
+    IEPSCSSFramework
+    Version 0.0.1
+    Created on : 10-mars-2015, 10:36:59
+    Author     : Pascal
+
+    texte.css
+    Spécifications des textes
+*/
+/* Taille des textes */
+.texte-taille-grand {
+  font-size: 3em;
+}
+
+.texte-taille-petit {
+  font-size: 0.8em;
+}
+
+/* Styles des textes */
+.texte-style-italique {
+  font-style: italic;
+}
+
+/* Couleur des textes */
+.texte-couleur-principale {
+  color: #A65500;
+}
+
+.texte-couleur-secondaire {
+  color: #024E68;
+}
+
+/* Alignement des textes */
+.texte-alignement-centre {
+  text-align: center;
+}
+
+.texte-alignement-droite {
+  text-align: right;
+}
+
+.texte-alignement-justifie {
+  text-align: justify;
+}
+
+/* 
+    IEPSCSSFramework
+    Version 0.0.1
+    Created on : 10-mars-2015, 10:36:59
+    Author     : Pascal
+
+    boites.css
+    Spécifications des objets de type block et inline-block
+*/
+/* Couleur des boites */
+.boite-couleur-1 {
+  background: #1a2530;
+}
+
+.boite-couleur-2 {
+  background: #2c3e50;
+}
+
+.boite-couleur-3 {
+  background: #34495e;
+}
+
+.boite-couleur-4 {
+  background: #e74C3C;
+}
+
+.boite-couleur-neutre {
+  background: #555;
+}
+
+.boite-couleur-1,
+.boite-couleur-2,
+.boite-couleur-3,
+.boite-couleur-4,
+.boite-couleur-neutre {
+  padding: 10px;
+}
+
+/* Alignement du contenu des boites */
+.boite-contenu-centre {
+  text-align: center;
+}
+
+/* Couleur des boites */
+.boite-couleur-principale {
+  background: #f2f7fa;
+}
+
+/* Alignement des boites */
+.boite-alignement-centre {
+  margin: auto;
+}
+
+.boite-alignement-gauche {
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.boite-alignement-droite {
+  float: right;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.clear-force:after {
+  content: '';
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+/* Bordures des boîtes */
+.boite-bordure-large {
+  border: #90b6c1 5px solid;
+  padding: 20px;
+}
+
+.boite-bordure-nulle {
+  border: none;
+}
+
+.boite-bordure-arrondie {
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* 
+    IEPSCSSFramework
+    Version 0.0.1
+    Created on : 10-mars-2015, 10:36:59
+    Author     : Pascal
+
+    menus.css
+    Gestion des menus
+*/
+/* Menus horizontaux */
+.menu-horizontal > ul, .menu-horizontal {
+  list-style: none;
+}
+
+.menu-horizontal > ul > li, .menu-horizontal > li {
+  display: inline-block;
+}
+
+.menu-horizontal > ul > li a, .menu-horizontal > li a {
+  display: block;
+}
+
+/* 
+    IEPSCSSFramework
+    Version 0.0.1
+    Created on : 10-mars-2015, 10:36:59
+    Author     : Pascal
+
+    listes.css
+    Gestion des listes
+*/
+/* 
+    IEPSCSSFramework
+    Version 0.0.1
+    Created on : 10-mars-2015, 10:36:59
+    Author     : Pascal
+
+    visibilite.css
+    Visibilité des éléments
+*/
+.cache {
+  display: none;
+}
+
+/* 
+    IEPSCSSFramework
+    Version 0.0.1
+    Created on : 10-mars-2015, 10:36:59
+    Author     : Pascal
+
+    grille-16.css
+    Mise en place d'une grille responsive 960px/fluide en 16 colonnes
+*/
+/* 
+    Created on : 04-janv.-2015, 16:40:38
+    Author     : Pascal
+    IEPSCSS : Framework CSS sémantique en français - v 0.1.0
+*/
+/* Les conteneurs */
+.conteneur-fluide, .conteneur-960 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 0;
+}
+.conteneur-fluide > *, .conteneur-960 > * {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1rem;
+  vertical-align: top;
+  margin-left: 3%;
+}
+.conteneur-fluide > *.debut-ligne, .conteneur-960 > *.debut-ligne {
+  margin-left: 0;
+}
+
+.conteneur-fixe {
+  max-width: 960px;
+  margin: auto;
+}
+
+/* Les items */
+/* Pour les écrans small */
+@media screen and (min-width: 0) {
+  /* Dimension des items  */
+  .small-1 {
+    width: 3.25%;
+  }
+  .small-1.debut-ligne {
+    width: 6.25%;
+  }
+
+  .small-2 {
+    width: 9.5%;
+  }
+  .small-2.debut-ligne {
+    width: 12.5%;
+  }
+
+  .small-3 {
+    width: 15.75%;
+  }
+  .small-3.debut-ligne {
+    width: 18.75%;
+  }
+
+  .small-4 {
+    width: 22%;
+  }
+  .small-4.debut-ligne {
+    width: 25%;
+  }
+
+  .small-5 {
+    width: 28.25%;
+  }
+  .small-5.debut-ligne {
+    width: 31.25%;
+  }
+
+  .small-6 {
+    width: 34.5%;
+  }
+  .small-6.debut-ligne {
+    width: 37.5%;
+  }
+
+  .small-7 {
+    width: 40.75%;
+  }
+  .small-7.debut-ligne {
+    width: 43.75%;
+  }
+
+  .small-8 {
+    width: 47%;
+  }
+  .small-8.debut-ligne {
+    width: 50%;
+  }
+
+  .small-9 {
+    width: 53.25%;
+  }
+  .small-9.debut-ligne {
+    width: 56.25%;
+  }
+
+  .small-10 {
+    width: 59.5%;
+  }
+  .small-10.debut-ligne {
+    width: 62.5%;
+  }
+
+  .small-11 {
+    width: 65.75%;
+  }
+  .small-11.debut-ligne {
+    width: 68.75%;
+  }
+
+  .small-12 {
+    width: 72%;
+  }
+  .small-12.debut-ligne {
+    width: 75%;
+  }
+
+  .small-13 {
+    width: 78.25%;
+  }
+  .small-13.debut-ligne {
+    width: 81.25%;
+  }
+
+  .small-14 {
+    width: 84.5%;
+  }
+  .small-14.debut-ligne {
+    width: 87.5%;
+  }
+
+  .small-15 {
+    width: 90.75%;
+  }
+  .small-15.debut-ligne {
+    width: 93.75%;
+  }
+
+  .small-16 {
+    width: 97%;
+  }
+  .small-16.debut-ligne {
+    width: 100%;
+  }
+
+  /* Décalages */
+  .small-decalage-1 {
+    margin-left: 6.25%;
+  }
+
+  .small-decalage-2 {
+    margin-left: 12.5%;
+  }
+
+  .small-decalage-3 {
+    margin-left: 18.75%;
+  }
+
+  .small-decalage-4 {
+    margin-left: 25%;
+  }
+
+  .small-decalage-5 {
+    margin-left: 31.25%;
+  }
+
+  .small-decalage-6 {
+    margin-left: 37.5%;
+  }
+
+  .small-decalage-7 {
+    margin-left: 43.75%;
+  }
+
+  .small-decalage-8 {
+    margin-left: 50%;
+  }
+
+  .small-decalage-9 {
+    margin-left: 56.25%;
+  }
+
+  .small-decalage-10 {
+    margin-left: 62.5%;
+  }
+
+  .small-decalage-11 {
+    margin-left: 68.75%;
+  }
+
+  .small-decalage-12 {
+    margin-left: 75%;
+  }
+
+  .small-decalage-13 {
+    margin-left: 81.25%;
+  }
+
+  .small-decalage-14 {
+    margin-left: 87.5%;
+  }
+
+  .small-decalage-15 {
+    margin-left: 93.75%;
+  }
+
+  .small-decalage-16 {
+    margin-left: 100%;
+  }
+}
+/* Pour les écrans medium */
+@media screen and (min-width: 480px) {
+  /* Dimension des items  */
+  .medium-1 {
+    width: 3.25%;
+  }
+  .medium-1.debut-ligne {
+    width: 6.25%;
+  }
+
+  .medium-2 {
+    width: 9.5%;
+  }
+  .medium-2.debut-ligne {
+    width: 12.5%;
+  }
+
+  .medium-3 {
+    width: 15.75%;
+  }
+  .medium-3.debut-ligne {
+    width: 18.75%;
+  }
+
+  .medium-4 {
+    width: 22%;
+  }
+  .medium-4.debut-ligne {
+    width: 25%;
+  }
+
+  .medium-5 {
+    width: 28.25%;
+  }
+  .medium-5.debut-ligne {
+    width: 31.25%;
+  }
+
+  .medium-6 {
+    width: 34.5%;
+  }
+  .medium-6.debut-ligne {
+    width: 37.5%;
+  }
+
+  .medium-7 {
+    width: 40.75%;
+  }
+  .medium-7.debut-ligne {
+    width: 43.75%;
+  }
+
+  .medium-8 {
+    width: 47%;
+  }
+  .medium-8.debut-ligne {
+    width: 50%;
+  }
+
+  .medium-9 {
+    width: 53.25%;
+  }
+  .medium-9.debut-ligne {
+    width: 56.25%;
+  }
+
+  .medium-10 {
+    width: 59.5%;
+  }
+  .medium-10.debut-ligne {
+    width: 62.5%;
+  }
+
+  .medium-11 {
+    width: 65.75%;
+  }
+  .medium-11.debut-ligne {
+    width: 68.75%;
+  }
+
+  .medium-12 {
+    width: 72%;
+  }
+  .medium-12.debut-ligne {
+    width: 75%;
+  }
+
+  .medium-13 {
+    width: 78.25%;
+  }
+  .medium-13.debut-ligne {
+    width: 81.25%;
+  }
+
+  .medium-14 {
+    width: 84.5%;
+  }
+  .medium-14.debut-ligne {
+    width: 87.5%;
+  }
+
+  .medium-15 {
+    width: 90.75%;
+  }
+  .medium-15.debut-ligne {
+    width: 93.75%;
+  }
+
+  .medium-16 {
+    width: 97%;
+  }
+  .medium-16.debut-ligne {
+    width: 100%;
+  }
+
+  /* Décalages */
+  .medium-decalage-1 {
+    margin-left: 6.25%;
+  }
+
+  .medium-decalage-2 {
+    margin-left: 12.5%;
+  }
+
+  .medium-decalage-3 {
+    margin-left: 18.75%;
+  }
+
+  .medium-decalage-4 {
+    margin-left: 25%;
+  }
+
+  .medium-decalage-5 {
+    margin-left: 31.25%;
+  }
+
+  .medium-decalage-6 {
+    margin-left: 37.5%;
+  }
+
+  .medium-decalage-7 {
+    margin-left: 43.75%;
+  }
+
+  .medium-decalage-8 {
+    margin-left: 50%;
+  }
+
+  .medium-decalage-9 {
+    margin-left: 56.25%;
+  }
+
+  .medium-decalage-10 {
+    margin-left: 62.5%;
+  }
+
+  .medium-decalage-11 {
+    margin-left: 68.75%;
+  }
+
+  .medium-decalage-12 {
+    margin-left: 75%;
+  }
+
+  .medium-decalage-13 {
+    margin-left: 81.25%;
+  }
+
+  .medium-decalage-14 {
+    margin-left: 87.5%;
+  }
+
+  .medium-decalage-15 {
+    margin-left: 93.75%;
+  }
+
+  .medium-decalage-16 {
+    margin-left: 100%;
+  }
+}
+/* Pour les écrans larges */
+@media screen and (min-width: 720px) {
+  /* Dimension des items */
+  .large-1 {
+    width: 3.25%;
+  }
+  .large-1.debut-ligne {
+    width: 6.25%;
+  }
+
+  .large-2 {
+    width: 9.5%;
+  }
+  .large-2.debut-ligne {
+    width: 12.5%;
+  }
+
+  .large-3 {
+    width: 15.75%;
+  }
+  .large-3.debut-ligne {
+    width: 18.75%;
+  }
+
+  .large-4 {
+    width: 22%;
+  }
+  .large-4.debut-ligne {
+    width: 25%;
+  }
+
+  .large-5 {
+    width: 28.25%;
+  }
+  .large-5.debut-ligne {
+    width: 31.25%;
+  }
+
+  .large-6 {
+    width: 34.5%;
+  }
+  .large-6.debut-ligne {
+    width: 37.5%;
+  }
+
+  .large-7 {
+    width: 40.75%;
+  }
+  .large-7.debut-ligne {
+    width: 43.75%;
+  }
+
+  .large-8 {
+    width: 47%;
+  }
+  .large-8.debut-ligne {
+    width: 50%;
+  }
+
+  .large-9 {
+    width: 53.25%;
+  }
+  .large-9.debut-ligne {
+    width: 56.25%;
+  }
+
+  .large-10 {
+    width: 59.5%;
+  }
+  .large-10.debut-ligne {
+    width: 62.5%;
+  }
+
+  .large-11 {
+    width: 65.75%;
+  }
+  .large-11.debut-ligne {
+    width: 68.75%;
+  }
+
+  .large-12 {
+    width: 72%;
+  }
+  .large-12.debut-ligne {
+    width: 75%;
+  }
+
+  .large-13 {
+    width: 78.25%;
+  }
+  .large-13.debut-ligne {
+    width: 81.25%;
+  }
+
+  .large-14 {
+    width: 84.5%;
+  }
+  .large-14.debut-ligne {
+    width: 87.5%;
+  }
+
+  .large-15 {
+    width: 90.75%;
+  }
+  .large-15.debut-ligne {
+    width: 93.75%;
+  }
+
+  .large-16 {
+    width: 97%;
+  }
+  .large-16.debut-ligne {
+    width: 100%;
+  }
+
+  /* Décalages */
+  .large-decalage-1 {
+    margin-left: 6.25%;
+  }
+
+  .large-decalage-2 {
+    margin-left: 12.5%;
+  }
+
+  .large-decalage-3 {
+    margin-left: 18.75%;
+  }
+
+  .large-decalage-4 {
+    margin-left: 25%;
+  }
+
+  .large-decalage-5 {
+    margin-left: 31.25%;
+  }
+
+  .large-decalage-6 {
+    margin-left: 37.5%;
+  }
+
+  .large-decalage-7 {
+    margin-left: 43.75%;
+  }
+
+  .large-decalage-8 {
+    margin-left: 50%;
+  }
+
+  .large-decalage-9 {
+    margin-left: 56.25%;
+  }
+
+  .large-decalage-10 {
+    margin-left: 62.5%;
+  }
+
+  .large-decalage-11 {
+    margin-left: 68.75%;
+  }
+
+  .large-decalage-12 {
+    margin-left: 75%;
+  }
+
+  .large-decalage-13 {
+    margin-left: 81.25%;
+  }
+
+  .large-decalage-14 {
+    margin-left: 87.5%;
+  }
+
+  .large-decalage-15 {
+    margin-left: 93.75%;
+  }
+
+  .large-decalage-16 {
+    margin-left: 100%;
+  }
+}
