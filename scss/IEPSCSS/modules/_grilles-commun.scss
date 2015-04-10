@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* 
+    IEPSCSSFramework
+    Version 0.0.1
+    Created on : 10-mars-2015, 10:36:59
+    Author     : Pascal
+
+    grilles-commun.css
+    Spécifications commune aux grilles
+*/
+
+@import '../variables.scss';
+@import 'mixins.scss';
+
+
+    /* Les conteneurs */
+        *[class*='conteneur'] {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 0;
+            clear: both;
+            
+            // Juste pour visualiser
+            //    border: red 2px solid;
+            > * {
+                display: inline-block;
+                overflow: hidden;
+                width: 100% - $espacementColonnes;
+                box-sizing: border-box;
+                font-size: 1rem;
+                vertical-align: top; 
+                margin-left : $espacementColonnes/2;
+                margin-right: $espacementColonnes/2;
+                
+                // Juste pour visualiser
+                //    border: #000 2px solid;
+            }
+            &.grille-conteneur-sans-marges-ext {
+                // Problème des espaces résiduels à gauche et à droite ???!!!
+                width: 100% + $espacementColonnes + ($espacementColonnes/5);
+                margin-left: - ($espacementColonnes/2) - ($espacementColonnes/10);
+            }
+        }
+
+        *[class*='conteneur-fixe'] {
+            max-width: $largeurConteneurFixe;
+            margin: auto;
+        }

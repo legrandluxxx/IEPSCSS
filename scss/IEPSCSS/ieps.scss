@@ -9,17 +9,22 @@
 //    Chargement des modules
 
     // Configuration
-        @import 'sass-import-once';
+        @import 'modules/sass-import-once';
         @import 'variables.scss';
-        @import 'mixins.scss';
-
+        @import 'modules/mixins.scss';
+    
     // Modules du framework 
-        @import 'textes.scss';
-        @import 'boites.scss';
-        @import 'menus.scss';
-        @import 'listes.scss';
-        @import 'visibilite.scss';
+    
+        // Les grilles */
+            @import 'modules/grilles-commun.scss';
+            @import 'modules/grille-16.scss';
+            //@import 'modules/grille-12.css';
 
-    // Les grilles */
-        @import 'grille-16.scss';
-        //@import url('grille-12.css');
+    
+        @import 'modules/textes.scss';
+        @import 'modules/boites.scss';
+        @import 'modules/menus.scss';
+        @import 'modules/listes.scss';
+        @import 'modules/visibilite.scss';
+
+    

@@ -1,8 +1,41 @@
+@charset "UTF-8";
 /* 
     Created on : 04-janv.-2015, 16:45:37
     Author     : Pascal
 */
-@import url(inc/variables.scss);
-@import url(inc/mixins.scss);
-@import url(specifications-generales.scss);
-@import url(objets-particuliers.scss);
+/* 
+    Created on : 04-janv.-2015, 16:40:38
+    Author     : Pascal
+*/
+/* 
+    Created on : 04-janv.-2015, 16:40:38
+    Author     : Pascal
+*/
+/* 
+    Created on : 04-janv.-2015, 16:45:37
+    Author     : Pascal
+*/
+/* ---------------------------------------------------
+    SPECIFICATIONS GENERALES
+    Valeurs par défaut ...
+   ---------------------------------------------------
+*/
+body {
+  font-family: verdana, sans-serif;
+  font-size: 1.2em;
+  color: grey;
+}
+
+/* 
+    Created on : 04-janv.-2015, 16:45:37
+    Author     : Pascal
+*/
+/* ---------------------------------------------------
+    OBJETS PARTICULIERS
+    Spécifications non-ré-utilisables 
+    concernant des objets particuliers
+   ---------------------------------------------------
+*/
+body {
+  background: #06c;
+}

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* 
+    IEPSCSSFramework
+    Version 0.0.1
+    Created on : 10-mars-2015, 10:36:59
+    Author     : Pascal
+
+    grille-16.css
+    Mise en place d'une grille responsive fixe/fluide en 16 colonnes
+*/
+
+    // Paramètres de la grille
+        $nbre-colonnes: 16;
+
+    /* Les items */
+    
+    /* Pour les écrans small */
+        @media screen and (min-width: 0) {
+           @include classes-items('small', $nbre-colonnes);
+        }
+    
+    /* Pour les écrans medium */
+        @media screen and (min-width: $small) {
+            @include classes-items('medium', $nbre-colonnes);
+        }
+    
+        /* Pour les écrans larges */
+        @media screen and (min-width: $medium) {
+            @include classes-items('large', $nbre-colonnes);     
+        }
+        
+    

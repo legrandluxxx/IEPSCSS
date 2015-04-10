@@ -1,0 +1,27 @@
+@charset "UTF-8";
+// 
+//    Created on : 04-janv.-2015, 16:40:38
+//    Author     : Pascal
+//    IEPSCSS : Framework CSS sémantique en français - v 0.1.0
+//
+//    mixins.scss
+//    Mixins du framework
+
+
+// Les grilles
+    @mixin classes-items($dim, $nbreColonnes) {
+        $largeurUnitaire: 100% / $nbreColonnes; 
+        
+        /* Dimension des items  */    
+           @for $i from 1 through $nbreColonnes {
+                $largeur: ($largeurUnitaire * $i) - $espacementColonnes;
+                /* Dimension des items  */
+                    .grille-item-#{$dim}-#{$i} {
+                        width: $largeur;
+                    }
+               /* Décalages */
+                    .grille-item-#{$dim}-decalage-#{$i} {
+                        margin-left: ($largeurUnitaire * $i) + ($espacementColonnes / 2); 
+                    }
+           }
+    }

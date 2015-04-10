@@ -4,8 +4,8 @@
     Author     : Pascal
 */
 
-@import url(inc/variables.scss);
-@import url(inc/mixins.scss);
+@import 'config/variables.scss';
+@import 'config/mixins.scss';
 
-@import url(specifications-generales.scss);
-@import url(objets-particuliers.scss);
+@import 'config/specifications-generales.scss';
+@import 'config/objets-particuliers.scss';
