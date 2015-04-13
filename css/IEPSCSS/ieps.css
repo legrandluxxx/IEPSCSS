@@ -5,17 +5,74 @@
     Created on : 10-mars-2015, 10:36:59
     Author     : Pascal
 */
-/* 
-    IEPSCSSFramework
-    Version 0.0.1
-    Created on : 10-mars-2015, 10:36:59
-    Author     : Pascal
+body {
+  font-size: 1.1rem;
+  /* Problème */
+  font-family: Trebuchet MS, serif;
+  color: #666;
+  line-height: 2rem;
+  background: #fff;
+  padding: 0;
+}
 
-    grilles-commun.css
-    Spécifications commune aux grilles
-*/
+a {
+  color: orange;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: red;
+}
+a:visited {
+  color: red;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 1.6em 0 0.8em 0;
+  color: #666;
+  font-family: Trebuchet MS, serif;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 1.6em 0 0.8em 0;
+  color: #666;
+  font-family: Trebuchet MS, serif;
+}
+
+h3 {
+  font-size: 1em;
+  margin: 1.6em 0 0.8em 0;
+  color: #666;
+  font-family: Trebuchet MS, serif;
+}
+
+h4 {
+  font-size: 1em;
+  margin: 1.6em 0 0.8em 0;
+  color: #666;
+  font-family: Trebuchet MS, serif;
+}
+
+h5 {
+  font-size: 1em;
+  margin: 1.6em 0 0.8em 0;
+  color: #666;
+  font-family: Trebuchet MS, serif;
+}
+
+h6 {
+  font-size: 1em;
+  margin: 1.6em 0 0.8em 0;
+  color: #666;
+  font-family: Trebuchet MS, serif;
+}
+
 /* Les conteneurs */
-*[class*='conteneur'] {
+*[class*='conteneur'], *[class*='bloc'] {
   width: 100%;
   margin: 0;
   padding: 0;
@@ -23,19 +80,19 @@
   font-size: 0;
   clear: both;
 }
-*[class*='conteneur'] > * {
+*[class*='conteneur'] > *, *[class*='bloc'] > * {
   display: inline-block;
   overflow: hidden;
   width: 97%;
   box-sizing: border-box;
-  font-size: 1rem;
+  font-size: 1.1rem;
   vertical-align: top;
   margin-left: 1.5%;
   margin-right: 1.5%;
 }
-*[class*='conteneur'].grille-conteneur-sans-marges-ext {
-  width: 103.6%;
-  margin-left: -1.8%;
+*[class*='conteneur'].grilles-conteneur-sans-marges-ext, *[class*='bloc'].grilles-conteneur-sans-marges-ext {
+  width: 103%;
+  margin-left: -1.5%;
 }
 
 *[class*='conteneur-fixe'] {
@@ -43,521 +100,755 @@
   margin: auto;
 }
 
-/* 
-    IEPSCSSFramework
-    Version 0.0.1
-    Created on : 10-mars-2015, 10:36:59
-    Author     : Pascal
-
-    grille-16.css
-    Mise en place d'une grille responsive fixe/fluide en 16 colonnes
-*/
 /* Les items */
 /* Pour les écrans small */
 @media screen and (min-width: 0) {
-  /* Dimension des items  */
-  /* Dimension des items  */
-  .grille-item-small-1 {
+  *[class*='16-conteneur'] {
+    /* Dimension des items  */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+  }
+  *[class*='16-conteneur'] .grilles-item-small-1 {
     width: 3.25%;
   }
-
-  /* Décalages */
-  .grille-item-small-decalage-1 {
+  *[class*='16-conteneur'] .grilles-item-small-decalage-1 {
     margin-left: 7.75%;
   }
-
-  /* Dimension des items  */
-  .grille-item-small-2 {
+  *[class*='16-conteneur'] .grilles-item-small-2 {
     width: 9.5%;
   }
-
-  /* Décalages */
-  .grille-item-small-decalage-2 {
+  *[class*='16-conteneur'] .grilles-item-small-decalage-2 {
     margin-left: 14%;
   }
-
-  /* Dimension des items  */
-  .grille-item-small-3 {
+  *[class*='16-conteneur'] .grilles-item-small-3 {
     width: 15.75%;
   }
-
-  /* Décalages */
-  .grille-item-small-decalage-3 {
+  *[class*='16-conteneur'] .grilles-item-small-decalage-3 {
     margin-left: 20.25%;
   }
-
-  /* Dimension des items  */
-  .grille-item-small-4 {
+  *[class*='16-conteneur'] .grilles-item-small-4 {
     width: 22%;
   }
-
-  /* Décalages */
-  .grille-item-small-decalage-4 {
+  *[class*='16-conteneur'] .grilles-item-small-decalage-4 {
     margin-left: 26.5%;
   }
-
-  /* Dimension des items  */
-  .grille-item-small-5 {
+  *[class*='16-conteneur'] .grilles-item-small-5 {
     width: 28.25%;
   }
-
-  /* Décalages */
-  .grille-item-small-decalage-5 {
+  *[class*='16-conteneur'] .grilles-item-small-decalage-5 {
     margin-left: 32.75%;
   }
-
-  /* Dimension des items  */
-  .grille-item-small-6 {
+  *[class*='16-conteneur'] .grilles-item-small-6 {
     width: 34.5%;
   }
-
-  /* Décalages */
-  .grille-item-small-decalage-6 {
+  *[class*='16-conteneur'] .grilles-item-small-decalage-6 {
     margin-left: 39%;
   }
-
-  /* Dimension des items  */
-  .grille-item-small-7 {
+  *[class*='16-conteneur'] .grilles-item-small-7 {
     width: 40.75%;
   }
-
-  /* Décalages */
-  .grille-item-small-decalage-7 {
+  *[class*='16-conteneur'] .grilles-item-small-decalage-7 {
     margin-left: 45.25%;
   }
-
-  /* Dimension des items  */
-  .grille-item-small-8 {
+  *[class*='16-conteneur'] .grilles-item-small-8 {
     width: 47%;
   }
-
-  /* Décalages */
-  .grille-item-small-decalage-8 {
+  *[class*='16-conteneur'] .grilles-item-small-decalage-8 {
     margin-left: 51.5%;
   }
-
-  /* Dimension des items  */
-  .grille-item-small-9 {
+  *[class*='16-conteneur'] .grilles-item-small-9 {
     width: 53.25%;
   }
-
-  /* Décalages */
-  .grille-item-small-decalage-9 {
+  *[class*='16-conteneur'] .grilles-item-small-decalage-9 {
     margin-left: 57.75%;
   }
-
-  /* Dimension des items  */
-  .grille-item-small-10 {
+  *[class*='16-conteneur'] .grilles-item-small-10 {
     width: 59.5%;
   }
-
-  /* Décalages */
-  .grille-item-small-decalage-10 {
+  *[class*='16-conteneur'] .grilles-item-small-decalage-10 {
     margin-left: 64%;
   }
-
-  /* Dimension des items  */
-  .grille-item-small-11 {
+  *[class*='16-conteneur'] .grilles-item-small-11 {
     width: 65.75%;
   }
-
-  /* Décalages */
-  .grille-item-small-decalage-11 {
+  *[class*='16-conteneur'] .grilles-item-small-decalage-11 {
     margin-left: 70.25%;
   }
-
-  /* Dimension des items  */
-  .grille-item-small-12 {
+  *[class*='16-conteneur'] .grilles-item-small-12 {
     width: 72%;
   }
-
-  /* Décalages */
-  .grille-item-small-decalage-12 {
+  *[class*='16-conteneur'] .grilles-item-small-decalage-12 {
     margin-left: 76.5%;
   }
-
-  /* Dimension des items  */
-  .grille-item-small-13 {
+  *[class*='16-conteneur'] .grilles-item-small-13 {
     width: 78.25%;
   }
-
-  /* Décalages */
-  .grille-item-small-decalage-13 {
+  *[class*='16-conteneur'] .grilles-item-small-decalage-13 {
     margin-left: 82.75%;
   }
-
-  /* Dimension des items  */
-  .grille-item-small-14 {
+  *[class*='16-conteneur'] .grilles-item-small-14 {
     width: 84.5%;
   }
-
-  /* Décalages */
-  .grille-item-small-decalage-14 {
+  *[class*='16-conteneur'] .grilles-item-small-decalage-14 {
     margin-left: 89%;
   }
-
-  /* Dimension des items  */
-  .grille-item-small-15 {
+  *[class*='16-conteneur'] .grilles-item-small-15 {
     width: 90.75%;
   }
-
-  /* Décalages */
-  .grille-item-small-decalage-15 {
+  *[class*='16-conteneur'] .grilles-item-small-decalage-15 {
     margin-left: 95.25%;
+  }
+  *[class*='16-conteneur'] .grilles-item-small-16 {
+    width: 97%;
+  }
+  *[class*='16-conteneur'] .grilles-item-small-decalage-16 {
+    margin-left: 101.5%;
   }
 
   /* Dimension des items  */
-  .grille-item-small-16 {
-    width: 97%;
+  /* Dimension des items  */
+  .grilles-bloc-small-16-1 > * {
+    width: 3.25%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
   }
 
-  /* Décalages */
-  .grille-item-small-decalage-16 {
-    margin-left: 101.5%;
+  /* Dimension des items  */
+  .grilles-bloc-small-16-2 > * {
+    width: 9.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-small-16-3 > * {
+    width: 15.75%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-small-16-4 > * {
+    width: 22%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-small-16-5 > * {
+    width: 28.25%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-small-16-6 > * {
+    width: 34.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-small-16-7 > * {
+    width: 40.75%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-small-16-8 > * {
+    width: 47%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-small-16-9 > * {
+    width: 53.25%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-small-16-10 > * {
+    width: 59.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-small-16-11 > * {
+    width: 65.75%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-small-16-12 > * {
+    width: 72%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-small-16-13 > * {
+    width: 78.25%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-small-16-14 > * {
+    width: 84.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-small-16-15 > * {
+    width: 90.75%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-small-16-16 > * {
+    width: 97%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
   }
 }
 /* Pour les écrans medium */
 @media screen and (min-width: 480px) {
-  /* Dimension des items  */
-  /* Dimension des items  */
-  .grille-item-medium-1 {
+  *[class*='16-conteneur'] {
+    /* Dimension des items  */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+  }
+  *[class*='16-conteneur'] .grilles-item-medium-1 {
     width: 3.25%;
   }
-
-  /* Décalages */
-  .grille-item-medium-decalage-1 {
+  *[class*='16-conteneur'] .grilles-item-medium-decalage-1 {
     margin-left: 7.75%;
   }
-
-  /* Dimension des items  */
-  .grille-item-medium-2 {
+  *[class*='16-conteneur'] .grilles-item-medium-2 {
     width: 9.5%;
   }
-
-  /* Décalages */
-  .grille-item-medium-decalage-2 {
+  *[class*='16-conteneur'] .grilles-item-medium-decalage-2 {
     margin-left: 14%;
   }
-
-  /* Dimension des items  */
-  .grille-item-medium-3 {
+  *[class*='16-conteneur'] .grilles-item-medium-3 {
     width: 15.75%;
   }
-
-  /* Décalages */
-  .grille-item-medium-decalage-3 {
+  *[class*='16-conteneur'] .grilles-item-medium-decalage-3 {
     margin-left: 20.25%;
   }
-
-  /* Dimension des items  */
-  .grille-item-medium-4 {
+  *[class*='16-conteneur'] .grilles-item-medium-4 {
     width: 22%;
   }
-
-  /* Décalages */
-  .grille-item-medium-decalage-4 {
+  *[class*='16-conteneur'] .grilles-item-medium-decalage-4 {
     margin-left: 26.5%;
   }
-
-  /* Dimension des items  */
-  .grille-item-medium-5 {
+  *[class*='16-conteneur'] .grilles-item-medium-5 {
     width: 28.25%;
   }
-
-  /* Décalages */
-  .grille-item-medium-decalage-5 {
+  *[class*='16-conteneur'] .grilles-item-medium-decalage-5 {
     margin-left: 32.75%;
   }
-
-  /* Dimension des items  */
-  .grille-item-medium-6 {
+  *[class*='16-conteneur'] .grilles-item-medium-6 {
     width: 34.5%;
   }
-
-  /* Décalages */
-  .grille-item-medium-decalage-6 {
+  *[class*='16-conteneur'] .grilles-item-medium-decalage-6 {
     margin-left: 39%;
   }
-
-  /* Dimension des items  */
-  .grille-item-medium-7 {
+  *[class*='16-conteneur'] .grilles-item-medium-7 {
     width: 40.75%;
   }
-
-  /* Décalages */
-  .grille-item-medium-decalage-7 {
+  *[class*='16-conteneur'] .grilles-item-medium-decalage-7 {
     margin-left: 45.25%;
   }
-
-  /* Dimension des items  */
-  .grille-item-medium-8 {
+  *[class*='16-conteneur'] .grilles-item-medium-8 {
     width: 47%;
   }
-
-  /* Décalages */
-  .grille-item-medium-decalage-8 {
+  *[class*='16-conteneur'] .grilles-item-medium-decalage-8 {
     margin-left: 51.5%;
   }
-
-  /* Dimension des items  */
-  .grille-item-medium-9 {
+  *[class*='16-conteneur'] .grilles-item-medium-9 {
     width: 53.25%;
   }
-
-  /* Décalages */
-  .grille-item-medium-decalage-9 {
+  *[class*='16-conteneur'] .grilles-item-medium-decalage-9 {
     margin-left: 57.75%;
   }
-
-  /* Dimension des items  */
-  .grille-item-medium-10 {
+  *[class*='16-conteneur'] .grilles-item-medium-10 {
     width: 59.5%;
   }
-
-  /* Décalages */
-  .grille-item-medium-decalage-10 {
+  *[class*='16-conteneur'] .grilles-item-medium-decalage-10 {
     margin-left: 64%;
   }
-
-  /* Dimension des items  */
-  .grille-item-medium-11 {
+  *[class*='16-conteneur'] .grilles-item-medium-11 {
     width: 65.75%;
   }
-
-  /* Décalages */
-  .grille-item-medium-decalage-11 {
+  *[class*='16-conteneur'] .grilles-item-medium-decalage-11 {
     margin-left: 70.25%;
   }
-
-  /* Dimension des items  */
-  .grille-item-medium-12 {
+  *[class*='16-conteneur'] .grilles-item-medium-12 {
     width: 72%;
   }
-
-  /* Décalages */
-  .grille-item-medium-decalage-12 {
+  *[class*='16-conteneur'] .grilles-item-medium-decalage-12 {
     margin-left: 76.5%;
   }
-
-  /* Dimension des items  */
-  .grille-item-medium-13 {
+  *[class*='16-conteneur'] .grilles-item-medium-13 {
     width: 78.25%;
   }
-
-  /* Décalages */
-  .grille-item-medium-decalage-13 {
+  *[class*='16-conteneur'] .grilles-item-medium-decalage-13 {
     margin-left: 82.75%;
   }
-
-  /* Dimension des items  */
-  .grille-item-medium-14 {
+  *[class*='16-conteneur'] .grilles-item-medium-14 {
     width: 84.5%;
   }
-
-  /* Décalages */
-  .grille-item-medium-decalage-14 {
+  *[class*='16-conteneur'] .grilles-item-medium-decalage-14 {
     margin-left: 89%;
   }
-
-  /* Dimension des items  */
-  .grille-item-medium-15 {
+  *[class*='16-conteneur'] .grilles-item-medium-15 {
     width: 90.75%;
   }
-
-  /* Décalages */
-  .grille-item-medium-decalage-15 {
+  *[class*='16-conteneur'] .grilles-item-medium-decalage-15 {
     margin-left: 95.25%;
+  }
+  *[class*='16-conteneur'] .grilles-item-medium-16 {
+    width: 97%;
+  }
+  *[class*='16-conteneur'] .grilles-item-medium-decalage-16 {
+    margin-left: 101.5%;
   }
 
   /* Dimension des items  */
-  .grille-item-medium-16 {
-    width: 97%;
+  /* Dimension des items  */
+  .grilles-bloc-medium-16-1 > * {
+    width: 3.25%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
   }
 
-  /* Décalages */
-  .grille-item-medium-decalage-16 {
-    margin-left: 101.5%;
+  /* Dimension des items  */
+  .grilles-bloc-medium-16-2 > * {
+    width: 9.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-medium-16-3 > * {
+    width: 15.75%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-medium-16-4 > * {
+    width: 22%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-medium-16-5 > * {
+    width: 28.25%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-medium-16-6 > * {
+    width: 34.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-medium-16-7 > * {
+    width: 40.75%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-medium-16-8 > * {
+    width: 47%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-medium-16-9 > * {
+    width: 53.25%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-medium-16-10 > * {
+    width: 59.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-medium-16-11 > * {
+    width: 65.75%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-medium-16-12 > * {
+    width: 72%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-medium-16-13 > * {
+    width: 78.25%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-medium-16-14 > * {
+    width: 84.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-medium-16-15 > * {
+    width: 90.75%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-medium-16-16 > * {
+    width: 97%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
   }
 }
 /* Pour les écrans larges */
 @media screen and (min-width: 720px) {
-  /* Dimension des items  */
-  /* Dimension des items  */
-  .grille-item-large-1 {
+  *[class*='16-conteneur'] {
+    /* Dimension des items  */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+    /* Dimension des items  */
+    /* Décalages */
+  }
+  *[class*='16-conteneur'] .grilles-item-large-1 {
     width: 3.25%;
   }
-
-  /* Décalages */
-  .grille-item-large-decalage-1 {
+  *[class*='16-conteneur'] .grilles-item-large-decalage-1 {
     margin-left: 7.75%;
   }
-
-  /* Dimension des items  */
-  .grille-item-large-2 {
+  *[class*='16-conteneur'] .grilles-item-large-2 {
     width: 9.5%;
   }
-
-  /* Décalages */
-  .grille-item-large-decalage-2 {
+  *[class*='16-conteneur'] .grilles-item-large-decalage-2 {
     margin-left: 14%;
   }
-
-  /* Dimension des items  */
-  .grille-item-large-3 {
+  *[class*='16-conteneur'] .grilles-item-large-3 {
     width: 15.75%;
   }
-
-  /* Décalages */
-  .grille-item-large-decalage-3 {
+  *[class*='16-conteneur'] .grilles-item-large-decalage-3 {
     margin-left: 20.25%;
   }
-
-  /* Dimension des items  */
-  .grille-item-large-4 {
+  *[class*='16-conteneur'] .grilles-item-large-4 {
     width: 22%;
   }
-
-  /* Décalages */
-  .grille-item-large-decalage-4 {
+  *[class*='16-conteneur'] .grilles-item-large-decalage-4 {
     margin-left: 26.5%;
   }
-
-  /* Dimension des items  */
-  .grille-item-large-5 {
+  *[class*='16-conteneur'] .grilles-item-large-5 {
     width: 28.25%;
   }
-
-  /* Décalages */
-  .grille-item-large-decalage-5 {
+  *[class*='16-conteneur'] .grilles-item-large-decalage-5 {
     margin-left: 32.75%;
   }
-
-  /* Dimension des items  */
-  .grille-item-large-6 {
+  *[class*='16-conteneur'] .grilles-item-large-6 {
     width: 34.5%;
   }
-
-  /* Décalages */
-  .grille-item-large-decalage-6 {
+  *[class*='16-conteneur'] .grilles-item-large-decalage-6 {
     margin-left: 39%;
   }
-
-  /* Dimension des items  */
-  .grille-item-large-7 {
+  *[class*='16-conteneur'] .grilles-item-large-7 {
     width: 40.75%;
   }
-
-  /* Décalages */
-  .grille-item-large-decalage-7 {
+  *[class*='16-conteneur'] .grilles-item-large-decalage-7 {
     margin-left: 45.25%;
   }
-
-  /* Dimension des items  */
-  .grille-item-large-8 {
+  *[class*='16-conteneur'] .grilles-item-large-8 {
     width: 47%;
   }
-
-  /* Décalages */
-  .grille-item-large-decalage-8 {
+  *[class*='16-conteneur'] .grilles-item-large-decalage-8 {
     margin-left: 51.5%;
   }
-
-  /* Dimension des items  */
-  .grille-item-large-9 {
+  *[class*='16-conteneur'] .grilles-item-large-9 {
     width: 53.25%;
   }
-
-  /* Décalages */
-  .grille-item-large-decalage-9 {
+  *[class*='16-conteneur'] .grilles-item-large-decalage-9 {
     margin-left: 57.75%;
   }
-
-  /* Dimension des items  */
-  .grille-item-large-10 {
+  *[class*='16-conteneur'] .grilles-item-large-10 {
     width: 59.5%;
   }
-
-  /* Décalages */
-  .grille-item-large-decalage-10 {
+  *[class*='16-conteneur'] .grilles-item-large-decalage-10 {
     margin-left: 64%;
   }
-
-  /* Dimension des items  */
-  .grille-item-large-11 {
+  *[class*='16-conteneur'] .grilles-item-large-11 {
     width: 65.75%;
   }
-
-  /* Décalages */
-  .grille-item-large-decalage-11 {
+  *[class*='16-conteneur'] .grilles-item-large-decalage-11 {
     margin-left: 70.25%;
   }
-
-  /* Dimension des items  */
-  .grille-item-large-12 {
+  *[class*='16-conteneur'] .grilles-item-large-12 {
     width: 72%;
   }
-
-  /* Décalages */
-  .grille-item-large-decalage-12 {
+  *[class*='16-conteneur'] .grilles-item-large-decalage-12 {
     margin-left: 76.5%;
   }
-
-  /* Dimension des items  */
-  .grille-item-large-13 {
+  *[class*='16-conteneur'] .grilles-item-large-13 {
     width: 78.25%;
   }
-
-  /* Décalages */
-  .grille-item-large-decalage-13 {
+  *[class*='16-conteneur'] .grilles-item-large-decalage-13 {
     margin-left: 82.75%;
   }
-
-  /* Dimension des items  */
-  .grille-item-large-14 {
+  *[class*='16-conteneur'] .grilles-item-large-14 {
     width: 84.5%;
   }
-
-  /* Décalages */
-  .grille-item-large-decalage-14 {
+  *[class*='16-conteneur'] .grilles-item-large-decalage-14 {
     margin-left: 89%;
   }
-
-  /* Dimension des items  */
-  .grille-item-large-15 {
+  *[class*='16-conteneur'] .grilles-item-large-15 {
     width: 90.75%;
   }
-
-  /* Décalages */
-  .grille-item-large-decalage-15 {
+  *[class*='16-conteneur'] .grilles-item-large-decalage-15 {
     margin-left: 95.25%;
+  }
+  *[class*='16-conteneur'] .grilles-item-large-16 {
+    width: 97%;
+  }
+  *[class*='16-conteneur'] .grilles-item-large-decalage-16 {
+    margin-left: 101.5%;
   }
 
   /* Dimension des items  */
-  .grille-item-large-16 {
-    width: 97%;
+  /* Dimension des items  */
+  .grilles-bloc-large-16-1 > * {
+    width: 3.25%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
   }
 
-  /* Décalages */
-  .grille-item-large-decalage-16 {
-    margin-left: 101.5%;
+  /* Dimension des items  */
+  .grilles-bloc-large-16-2 > * {
+    width: 9.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-large-16-3 > * {
+    width: 15.75%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-large-16-4 > * {
+    width: 22%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-large-16-5 > * {
+    width: 28.25%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-large-16-6 > * {
+    width: 34.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-large-16-7 > * {
+    width: 40.75%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-large-16-8 > * {
+    width: 47%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-large-16-9 > * {
+    width: 53.25%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-large-16-10 > * {
+    width: 59.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-large-16-11 > * {
+    width: 65.75%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-large-16-12 > * {
+    width: 72%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-large-16-13 > * {
+    width: 78.25%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-large-16-14 > * {
+    width: 84.5%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-large-16-15 > * {
+    width: 90.75%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+  }
+
+  /* Dimension des items  */
+  .grilles-bloc-large-16-16 > * {
+    width: 97%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
   }
 }
-/* 
-    IEPSCSSFramework
-    Version 0.0.1
-    Created on : 10-mars-2015, 10:36:59
-    Author     : Pascal
-
-    texte.css
-    Spécifications des textes
-*/
 /* Taille des textes */
 .texte-taille-grand {
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 .texte-taille-petit {
-  font-size: 0.8em;
+  font-size: 0.8rem;
 }
 
 /* Styles des textes */
@@ -567,62 +858,32 @@
 
 /* Couleur des textes */
 .texte-couleur-principale {
-  color: #A65500;
+  color: #123456;
 }
 
 .texte-couleur-secondaire {
-  color: #024E68;
+  color: #234567;
 }
 
-/* Alignement des textes */
-.texte-alignement-centre {
-  text-align: center;
+/* Couleurs des boites */
+.boite-couleur-principale {
+  background: #123456;
 }
 
-.texte-alignement-droite {
-  text-align: right;
+.boite-couleur-secondaire {
+  background: #234567;
 }
 
-.texte-alignement-justifie {
-  text-align: justify;
+.boite-couleur-neutre-claire {
+  background: #ccc;
 }
 
-/* 
-    IEPSCSSFramework
-    Version 0.0.1
-    Created on : 10-mars-2015, 10:36:59
-    Author     : Pascal
-
-    boites.css
-    Spécifications des objets de type block et inline-block
-*/
-/* Couleur des boites */
-.boite-couleur-1 {
-  background: #1a2530;
+.boite-couleur-neutre-foncee {
+  background: #666;
 }
 
-.boite-couleur-2 {
-  background: #2c3e50;
-}
-
-.boite-couleur-3 {
-  background: #34495e;
-}
-
-.boite-couleur-4 {
-  background: #e74C3C;
-}
-
-.boite-couleur-neutre {
-  background: #555;
-}
-
-.boite-couleur-1,
-.boite-couleur-2,
-.boite-couleur-3,
-.boite-couleur-4,
-.boite-couleur-neutre {
-  padding: 10px;
+*[class$='boite-couleur'] {
+  padding: 1rem;
 }
 
 /* Alignement du contenu des boites */
@@ -630,9 +891,12 @@
   text-align: center;
 }
 
-/* Couleur des boites */
-.boite-couleur-principale {
-  background: #f2f7fa;
+.boite-contenu-droite {
+  text-align: right;
+}
+
+.boite-contenu-justifie {
+  text-align: justify;
 }
 
 /* Alignement des boites */
@@ -640,19 +904,19 @@
   margin: auto;
 }
 
-.boite-alignement-gauche {
-  float: left;
-  margin-right: 5%;
-  margin-bottom: 5%;
-}
-
-.boite-alignement-droite {
+.boite-habillage-gauche {
   float: right;
-  margin-left: 5%;
-  margin-bottom: 5%;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
-.clear-force:after {
+.boite-habillage-droite {
+  float: left;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.annulation-habillage:after {
   content: '';
   display: block;
   visibility: hidden;
@@ -660,9 +924,9 @@
 }
 
 /* Bordures des boîtes */
-.boite-bordure-large {
-  border: #90b6c1 5px solid;
-  padding: 20px;
+.boite-bordure-principale {
+  border: #123456 2px solid;
+  padding: 1rem;
 }
 
 .boite-bordure-nulle {
@@ -670,11 +934,11 @@
 }
 
 .boite-bordure-arrondie {
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -o-border-radius: 20px;
-  border-radius: 20px;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  border-radius: 1rem;
 }
 
 /* */
@@ -682,46 +946,77 @@
   margin: 0;
 }
 
-/* 
-    IEPSCSSFramework
-    Version 0.0.1
-    Created on : 10-mars-2015, 10:36:59
-    Author     : Pascal
-
-    menus.css
-    Gestion des menus
-*/
 /* Menus horizontaux */
 .menu-horizontal > ul, .menu-horizontal {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
-
 .menu-horizontal > ul > li, .menu-horizontal > li {
   display: inline-block;
 }
-
-.menu-horizontal > ul > li a, .menu-horizontal > li a {
+.menu-horizontal > ul > li > a, .menu-horizontal > li > a {
   display: block;
 }
 
-/* 
-    IEPSCSSFramework
-    Version 0.0.1
-    Created on : 10-mars-2015, 10:36:59
-    Author     : Pascal
+/* Styles des menus */
+*[class*='menu-style-bouton'] a {
+  padding: 1rem;
+  background: orange;
+  color: #fff;
+  text-decoration: none;
+  -moz-border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  border-radius: 1rem;
+}
+*[class*='menu-style-bouton'] a.actif {
+  background: red;
+  color: #fff;
+}
+*[class*='menu-style-bouton'] a:hover {
+  background: red;
+  color: #fff;
+}
+*[class*='menu-style-bouton'] a:active {
+  background: red;
+  color: #fff;
+}
+*[class*='menu-style-bouton'] a:visited {
+  background: red;
+  color: #fff;
+}
 
-    listes.css
-    Gestion des listes
-*/
-/* 
-    IEPSCSSFramework
-    Version 0.0.1
-    Created on : 10-mars-2015, 10:36:59
-    Author     : Pascal
-
-    visibilite.css
-    Visibilité des éléments
-*/
-.cache {
+.visibilite-non {
   display: none;
+}
+
+/* Pour les écrans small */
+@media screen and (max-width: 480px) {
+  .visibilite-small-non {
+    display: none;
+  }
+
+  .visibilite-small-oui {
+    display: initial;
+  }
+}
+/* Pour les écrans medium */
+@media screen and (min-width: 480px) and (max-width: 720px) {
+  .visibilite-medium-non {
+    display: none;
+  }
+
+  .visibilite-medium-oui {
+    display: initial;
+  }
+}
+/* Pour les écrans larges */
+@media screen and (min-width: 720px) {
+  .visibilite-large-non {
+    display: none;
+  }
+
+  .visibilite-large-oui {
+    display: initial;
+  }
 }

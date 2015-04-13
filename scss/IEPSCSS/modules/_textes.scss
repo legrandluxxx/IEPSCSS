@@ -1,21 +1,20 @@
-@charset "UTF-8";
-/* 
-    IEPSCSSFramework
-    Version 0.0.1
-    Created on : 10-mars-2015, 10:36:59
-    Author     : Pascal
+//    IEPSCSSFramework
+//    Version 0.0.1
+//    Created on : 10-mars-2015, 10:36:59
+//    Author     : Pascal
+//
+//    IEPSCSS/modules/textes.css
+//    Spécifications des textes
 
-    texte.css
-    Spécifications des textes
-*/
 
     /* Taille des textes */
+    
         .texte-taille-grand {
-          font-size: 3em;
+          font-size: $textesTailleGrand;
         }
 
         .texte-taille-petit {
-          font-size: 0.8em;
+          font-size: $textesTaillePetit;
         }
 
     /* Styles des textes */
@@ -25,22 +24,10 @@
 
     /* Couleur des textes */
         .texte-couleur-principale {
-          color: #A65500;
+          color: $couleurPrincipale;
         }
 
         .texte-couleur-secondaire {
-          color: #024E68;
+          color: $couleurSecondaire;
         }
 
-    /* Alignement des textes */
-        .texte-alignement-centre {
-          text-align: center;
-        }
-
-        .texte-alignement-droite {
-          text-align: right;
-        }
-
-        .texte-alignement-justifie {
-          text-align: justify;
-        }

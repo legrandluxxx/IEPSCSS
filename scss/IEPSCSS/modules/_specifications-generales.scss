@@ -1,0 +1,69 @@
+//    IEPSCSSFramework
+//    Version 0.0.1
+//    Created on : 10-mars-2015, 10:36:59
+//    Author     : Pascal
+//
+//    IEPSCSS/modules/specifications-generales.css
+//    Définition des valeurs par défaut
+
+    body {
+            font-size:   $textesTaillePrincipale; /* Problème */
+            font-family: $textesPolicePrincipale;
+            color:       $textesCouleurPrincipale;
+            line-height: $textesHauteurLignePrincipale;
+            background:  $documentCouleurPrincipale;
+            padding:     $documentPadding;
+        }
+    a {
+        color: $liensCouleur;
+        text-decoration: $liensDecorationTexte;
+        
+        &:hover {
+            color: $liensCouleurSurvol;
+        }
+        &:active {
+            color: $liensCouleurActif;
+        }
+        &:visited {
+            color: $liensCouleurVisite;
+        }
+    }
+    
+
+    h1 {
+        font-size:   $titresTaille1;
+        margin:      $titresMarginPrincipale;
+        color:       $titresCouleurPrincipale;
+        font-family: $titresPolicePrincipale;
+    }
+    h2 {
+        font-size:   $titresTaille2;
+        margin:      $titresMarginPrincipale;
+        color:       $titresCouleurPrincipale;
+        font-family: $titresPolicePrincipale;
+    }
+    h3 {
+        font-size:   $titresTaille3;
+        margin:      $titresMarginPrincipale;
+        color:       $titresCouleurPrincipale;
+        font-family: $titresPolicePrincipale;
+    }
+    h4 {
+        font-size:   $titresTaille4;
+        margin:      $titresMarginPrincipale;
+        color:       $titresCouleurPrincipale;
+        font-family: $titresPolicePrincipale;
+    }
+    h5 {
+        font-size:   $titresTaille5;
+        margin:      $titresMarginPrincipale;
+        color:       $titresCouleurPrincipale;
+        font-family: $titresPolicePrincipale;
+    }
+    h6 {
+        font-size:   $titresTaille6;
+        margin:      $titresMarginPrincipale;
+        color:       $titresCouleurPrincipale;
+        font-family: $titresPolicePrincipale;
+    }
+

@@ -1,23 +1,106 @@
-@charset "UTF-8";
-// 
 //    IEPSCSSFramework
 //    Version 0.0.1
 //    Created on : 10-mars-2015, 10:36:59
 //    Author     : Pascal
 //
-//    IEPSCSS/inc/variables.scss
+//    IEPSCSS/variables.scss
 //    Variables du framework
 
+// --------------------------------------------------------------
+// Paramètres généraux
+// --------------------------------------------------------------
+    $documentCouleurPrincipale: #fff;
+    $documentPadding: 0;
 
-// Couleurs
-    $couleurPrincipale: #123456;
-    $couleurSecondaire: #234567;
-
+// --------------------------------------------------------------
+// Couleurs générales
+// --------------------------------------------------------------
+    $couleurPrincipale:     #123456;
+    $couleurSecondaire:     #234567;
+    $couleurNeutreClaire:   #ccc;
+    $couleurNeutreFoncee:   #666;
+    
+// --------------------------------------------------------------
 // Dimensions des écrans 
-    $small:  480px;
-    $medium: 720px;
-    $large:  1024px;
+// --------------------------------------------------------------
+    $ecransTailleSmall:  480px;
+    $ecransTailleMedium: 720px;
+    $ecransTailleLarge:  1024px;
 
+// --------------------------------------------------------------
 // Paramètres des grilles responsives
-    $largeurConteneurFixe:  960px;
-    $espacementColonnes:    3%;
+// --------------------------------------------------------------
+    $grillesLargeurConteneurFixe:  960px;
+    $grillesEspacementColonnes:    3%;
+
+// --------------------------------------------------------------
+// Paramètres des boites 
+// --------------------------------------------------------------
+    $boitesPaddingPrincipal:          1rem;
+    $boitesMarginPrincipal:           1rem;
+    $boitesRadiusPrincipal:           1rem;
+    $boitesBordureLargeurPrincipale:  2px;
+
+// --------------------------------------------------------------
+// Paramètres des textes
+// --------------------------------------------------------------
+    $textesPolicePrincipale:        Trebuchet MS, serif;
+    $textesPoliceSecondaire:        Verdana, sans-serif;
+    $textesCouleurPrincipale:       $couleurNeutreFoncee;
+    $textesCouleurSecondaire:       $couleurNeutreClaire;
+    $textesHauteurLignePrincipale:  2rem;
+    $textesHauteurLigneGrand:       3rem;
+    $textesHauteurLignePetit:       1rem;
+    $textesTaillePrincipale:        1.1rem;
+    $textesTailleGrand:             3rem;
+    $textesTaillePetit:             0.8rem;
+    
+// --------------------------------------------------------------
+// Paramètres des titres
+// --------------------------------------------------------------
+    $titresPolicePrincipale:      Trebuchet MS, serif;
+    $titresPoliceSecondaire:      Verdana, sans-serif;
+    $titresCouleurPrincipale:     $couleurNeutreFoncee;
+    $titresCouleurSecondaire:     $couleurNeutreClaire;
+    $titresTaille1:               2em;
+    $titresTaille2:               1.5em;
+    $titresTaille3:               1em;
+    $titresTaille4:               1em;
+    $titresTaille5:               1em;
+    $titresTaille6:               1em;
+    $titresMarginPrincipale:      1.6em 0 0.8em 0;
+
+// --------------------------------------------------------------
+// Paramètres des liens
+// --------------------------------------------------------------
+    $liensCouleur:          orange;
+    $liensCouleurSurvol:    red;
+    $liensCouleurActif:     red;
+    $liensCouleurVisite:    red;
+    $liensDecorationTexte:  none;
+
+// --------------------------------------------------------------
+// Paramètres des menus
+// --------------------------------------------------------------
+    $menusPadding:             1rem;
+    $menusRadiusBoite:         $boitesRadiusPrincipal;
+    
+    $menusCouleurBoite:         $liensCouleur;
+    $menusCouleurBoiteSurvol:   $liensCouleurSurvol;
+    $menusCouleurBoiteActif:    $liensCouleurActif;
+    $menusCouleurBoiteVisite:   $liensCouleurVisite;
+    
+    $menusCouleurTexte:         #fff;
+    $menusCouleurTexteSurvol:   #fff;
+    $menusCouleurTexteActif:    #fff;
+    $menusCouleurTexteVisite:   #fff;
+    $menusDecorationTexte:      none;
+    
+// --------------------------------------------------------------
+// Paramètres des images
+// --------------------------------------------------------------
+   
+// --------------------------------------------------------------
+// Paramètres des formulaires
+// --------------------------------------------------------------
+    

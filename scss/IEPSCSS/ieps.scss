@@ -5,26 +5,28 @@
     Created on : 10-mars-2015, 10:36:59
     Author     : Pascal
 */
-//    ieps.css
+//    IEPSCSS/ieps.scss
 //    Chargement des modules
 
     // Configuration
-        @import 'modules/sass-import-once';
-        @import 'variables.scss';
-        @import 'modules/mixins.scss';
-    
+        @import 'variables';
+        @import 'modules/mixins';
+        @import "compass/css3";
+        @import "modules/specifications-generales";
+        
     // Modules du framework 
     
         // Les grilles */
-            @import 'modules/grilles-commun.scss';
-            @import 'modules/grille-16.scss';
-            //@import 'modules/grille-12.css';
+            @import 'modules/grilles-commun';
+            @import 'modules/grille-16';
+            //@import 'modules/grille-12';
+            //@import 'modules/grille-24';
 
     
-        @import 'modules/textes.scss';
-        @import 'modules/boites.scss';
-        @import 'modules/menus.scss';
-        @import 'modules/listes.scss';
-        @import 'modules/visibilite.scss';
+        @import 'modules/textes';
+        @import 'modules/boites';
+        @import 'modules/menus';
+        @import 'modules/listes';
+        @import 'modules/visibilite';
 
     

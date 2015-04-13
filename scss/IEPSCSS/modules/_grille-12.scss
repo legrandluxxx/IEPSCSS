@@ -1,38 +1,33 @@
-@charset "UTF-8";
-/* 
-    IEPSCSSFramework
-    Version 0.0.1
-    Created on : 10-mars-2015, 10:36:59
-    Author     : Pascal
+//   IEPSCSSFramework
+//    Version 0.0.1
+//    Created on : 10-mars-2015, 10:36:59
+//    Author     : Pascal
+//
+//    grille-16.css
+//    Mise en place d'une grille responsive 960px/fluide en 12 colonnes
 
-    grille-16.css
-    Mise en place d'une grille responsive 960px/fluide en 16 colonnes
-*/
-
-    /* Les conteneurs */
-        .conteneur-fluide, .conteneur-960 {
-            width: 100%;
-            box-sizing: border-box;
-
-            font-size: 0;
-        }
-
-        .conteneur-fluide *, .conteneur-960  * {
-            display: inline-block;
-            width: 100%;
-            box-sizing: border-box;
-
-            font-size: 1rem;
-        }
-
-        .conteneur-960 {
-            max-width: 960px;
-            margin: auto;
-        }
+// Paramètres de la grille
+        $nbre-colonnes: 12;
 
     /* Les items */
-        @media screen and (min-width: 720px) {
-            .large-16-8 {
-                width: 50%;
-            }
+    
+    /* Pour les écrans small */
+        @media screen and (min-width: 0) {
+                   *[class*='12-conteneur'] {
+                        @include classes-items('small', $nbre-colonnes);
+                   }
+        }
+    
+    /* Pour les écrans medium */
+        @media screen and (min-width: $ecransTailleSmall) {
+                  *[class*='12-conteneur'] {
+                        @include classes-items('medium', $nbre-colonnes);
+                   }
+        }
+    
+        /* Pour les écrans larges */
+        @media screen and (min-width: $ecransTailleMedium) {
+                   *[class*='12-conteneur'] {
+                        @include classes-items('large', $nbre-colonnes);
+                   }     
         }

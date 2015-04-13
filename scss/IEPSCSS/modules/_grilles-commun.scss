@@ -1,20 +1,14 @@
-@charset "UTF-8";
-/* 
-    IEPSCSSFramework
-    Version 0.0.1
-    Created on : 10-mars-2015, 10:36:59
-    Author     : Pascal
-
-    grilles-commun.css
-    Spécifications commune aux grilles
-*/
-
-@import '../variables.scss';
-@import 'mixins.scss';
+//    IEPSCSSFramework
+//    Version 0.0.1
+//    Created on : 10-mars-2015, 10:36:59
+//    Author     : Pascal
+//
+//    grilles-commun.css
+//    Spécifications communes aux grilles
 
 
     /* Les conteneurs */
-        *[class*='conteneur'] {
+        *[class*='conteneur'], *[class*='bloc'] {
             width: 100%;
             margin: 0;
             padding: 0;
@@ -27,24 +21,26 @@
             > * {
                 display: inline-block;
                 overflow: hidden;
-                width: 100% - $espacementColonnes;
+                width: 100% - $grillesEspacementColonnes;
                 box-sizing: border-box;
-                font-size: 1rem;
+                font-size: $textesTaillePrincipale;
                 vertical-align: top; 
-                margin-left : $espacementColonnes/2;
-                margin-right: $espacementColonnes/2;
+                margin-left : $grillesEspacementColonnes/2;
+                margin-right: $grillesEspacementColonnes/2;
                 
                 // Juste pour visualiser
                 //    border: #000 2px solid;
             }
-            &.grille-conteneur-sans-marges-ext {
+            &.grilles-conteneur-sans-marges-ext {
                 // Problème des espaces résiduels à gauche et à droite ???!!!
-                width: 100% + $espacementColonnes + ($espacementColonnes/5);
-                margin-left: - ($espacementColonnes/2) - ($espacementColonnes/10);
+                // width: 100% + $grillesEspacementColonnes + ($grillesEspacementColonnes/5);
+                // margin-left: - ($grillesEspacementColonnes/2) - ($grillesEspacementColonnes/10);
+                width: 100% + $grillesEspacementColonnes;
+                margin-left: - ($grillesEspacementColonnes/2);
             }
         }
 
         *[class*='conteneur-fixe'] {
-            max-width: $largeurConteneurFixe;
+            max-width: $grillesLargeurConteneurFixe;
             margin: auto;
         }

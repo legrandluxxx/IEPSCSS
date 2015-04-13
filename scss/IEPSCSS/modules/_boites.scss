@@ -1,47 +1,39 @@
-@charset "UTF-8";
-/* 
-    IEPSCSSFramework
-    Version 0.0.1
-    Created on : 10-mars-2015, 10:36:59
-    Author     : Pascal
+//    IEPSCSSFramework
+//    Version 0.0.1
+//    Created on : 10-mars-2015, 10:36:59
+//    Author     : Pascal
+//
+//    IEPSCSS/modules/boites.css
+//    Spécifications des objets de type block et inline-block
 
-    boites.css
-    Spécifications des objets de type block et inline-block
-*/
 
-    /* Couleur des boites */
-        .boite-couleur-1 {
-            background: #1a2530;
+    /* Couleurs des boites */
+        .boite-couleur-principale {
+            background: $couleurPrincipale;
         }
-        .boite-couleur-2 {
-            background: #2c3e50;
+        .boite-couleur-secondaire {
+            background: $couleurSecondaire;
         }
-        .boite-couleur-3 {
-            background: #34495e;
+        .boite-couleur-neutre-claire {
+            background: $couleurNeutreClaire;
         }
-        .boite-couleur-4 {
-            background: #e74C3C;
+        .boite-couleur-neutre-foncee {
+            background: $couleurNeutreFoncee;
         }
-        .boite-couleur-neutre {
-            background: #555;
-        }
-        .boite-couleur-1,
-        .boite-couleur-2,
-        .boite-couleur-3,
-        .boite-couleur-4,
-        .boite-couleur-neutre {
-            padding: 10px;
+
+        *[class$='boite-couleur'] {
+            padding: $boitesPaddingPrincipal;
         }
         
     /* Alignement du contenu des boites */
         .boite-contenu-centre {
             text-align: center;
         }
-
-
-    /* Couleur des boites */
-        .boite-couleur-principale {
-            background: #f2f7fa;
+        .boite-contenu-droite {
+            text-align: right;
+        }
+        .boite-contenu-justifie {
+            text-align: justify;
         }
         
         
@@ -50,39 +42,39 @@
           margin: auto;
         }
 
-        .boite-alignement-gauche {
-          float: left;
-          margin-right: 5%;
-          margin-bottom: 5%;
+        .boite-habillage-gauche {
+          float:         right;
+          margin-right:  $boitesMarginPrincipal;
+          margin-bottom: $boitesMarginPrincipal;
         }
 
-        .boite-alignement-droite {
-          float: right;
-          margin-left: 5%;
-          margin-bottom: 5%;
+        .boite-habillage-droite {
+          float:         left;
+          margin-left:   $boitesMarginPrincipal;
+          margin-bottom: $boitesMarginPrincipal;
         }
 
-        .clear-force:after {
-            content: '';
-            display: block;
+        .annulation-habillage:after {
+            content:    '';
+            display:    block;
             visibility: hidden;
-            clear: both;
+            clear:      both;
         }
 
     /* Bordures des boîtes */
-        .boite-bordure-large {
-            border: #90b6c1 5px solid;
-            padding: 20px;
+        .boite-bordure-principale {
+            border:  $couleurPrincipale $boitesBordureLargeurPrincipale solid;
+            padding: $boitesPaddingPrincipal;
         }
         .boite-bordure-nulle {
             border: none;
         }
         .boite-bordure-arrondie {
-            -moz-border-radius : 20px;
-            -ms-border-radius : 20px;
-            -webkit-border-radius : 20px;
-            -o-border-radius : 20px;
-            border-radius: 20px;
+            -moz-border-radius :    $boitesRadiusPrincipal;
+            -ms-border-radius :     $boitesRadiusPrincipal;
+            -webkit-border-radius : $boitesRadiusPrincipal;
+            -o-border-radius :      $boitesRadiusPrincipal;
+            border-radius:          $boitesRadiusPrincipal;
         }
         
     /* */
