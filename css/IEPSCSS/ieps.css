@@ -103,41 +103,6 @@ h6 {
 /* Les items */
 /* Pour les écrans small */
 @media screen and (min-width: 0) {
-  *[class*='16-conteneur'] {
-    /* Dimension des items  */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-  }
   *[class*='16-conteneur'] .grille-item-small-1 {
     width: 3.25%;
   }
@@ -235,113 +200,96 @@ h6 {
     margin-left: 101.5%;
   }
 
-  /* Dimension des items  */
-  /* Dimension des items  */
   .grille-bloc-small-16-1 > * {
     width: 3.25%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-small-16-2 > * {
     width: 9.5%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-small-16-3 > * {
     width: 15.75%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-small-16-4 > * {
     width: 22%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-small-16-5 > * {
     width: 28.25%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-small-16-6 > * {
     width: 34.5%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-small-16-7 > * {
     width: 40.75%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-small-16-8 > * {
     width: 47%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-small-16-9 > * {
     width: 53.25%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-small-16-10 > * {
     width: 59.5%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-small-16-11 > * {
     width: 65.75%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-small-16-12 > * {
     width: 72%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-small-16-13 > * {
     width: 78.25%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-small-16-14 > * {
     width: 84.5%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-small-16-15 > * {
     width: 90.75%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-small-16-16 > * {
     width: 97%;
     margin-top: 1.5%;
@@ -350,41 +298,6 @@ h6 {
 }
 /* Pour les écrans medium */
 @media screen and (min-width: 480px) {
-  *[class*='16-conteneur'] {
-    /* Dimension des items  */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-  }
   *[class*='16-conteneur'] .grille-item-medium-1 {
     width: 3.25%;
   }
@@ -482,113 +395,96 @@ h6 {
     margin-left: 101.5%;
   }
 
-  /* Dimension des items  */
-  /* Dimension des items  */
   .grille-bloc-medium-16-1 > * {
     width: 3.25%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-medium-16-2 > * {
     width: 9.5%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-medium-16-3 > * {
     width: 15.75%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-medium-16-4 > * {
     width: 22%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-medium-16-5 > * {
     width: 28.25%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-medium-16-6 > * {
     width: 34.5%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-medium-16-7 > * {
     width: 40.75%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-medium-16-8 > * {
     width: 47%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-medium-16-9 > * {
     width: 53.25%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-medium-16-10 > * {
     width: 59.5%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-medium-16-11 > * {
     width: 65.75%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-medium-16-12 > * {
     width: 72%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-medium-16-13 > * {
     width: 78.25%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-medium-16-14 > * {
     width: 84.5%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-medium-16-15 > * {
     width: 90.75%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-medium-16-16 > * {
     width: 97%;
     margin-top: 1.5%;
@@ -597,41 +493,6 @@ h6 {
 }
 /* Pour les écrans larges */
 @media screen and (min-width: 720px) {
-  *[class*='16-conteneur'] {
-    /* Dimension des items  */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-    /* Dimension des items  */
-    /* Décalages */
-  }
   *[class*='16-conteneur'] .grille-item-large-1 {
     width: 3.25%;
   }
@@ -729,113 +590,96 @@ h6 {
     margin-left: 101.5%;
   }
 
-  /* Dimension des items  */
-  /* Dimension des items  */
   .grille-bloc-large-16-1 > * {
     width: 3.25%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-large-16-2 > * {
     width: 9.5%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-large-16-3 > * {
     width: 15.75%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-large-16-4 > * {
     width: 22%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-large-16-5 > * {
     width: 28.25%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-large-16-6 > * {
     width: 34.5%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-large-16-7 > * {
     width: 40.75%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-large-16-8 > * {
     width: 47%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-large-16-9 > * {
     width: 53.25%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-large-16-10 > * {
     width: 59.5%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-large-16-11 > * {
     width: 65.75%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-large-16-12 > * {
     width: 72%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-large-16-13 > * {
     width: 78.25%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-large-16-14 > * {
     width: 84.5%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-large-16-15 > * {
     width: 90.75%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
   }
 
-  /* Dimension des items  */
   .grille-bloc-large-16-16 > * {
     width: 97%;
     margin-top: 1.5%;
