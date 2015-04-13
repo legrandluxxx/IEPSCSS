@@ -31,7 +31,7 @@
            @for $i from 1 through $nbreColonnes {
                 $largeur: ($largeurUnitaire * $i) - $grillesEspacementColonnes;
 
-                    .grille-bloc-#{$dim}-#{$nbreColonnes}-#{$i} {
+                    .grille-#{$nbreColonnes}-bloc-#{$dim}-#{$i} {
                         & > * {
                             width: $largeur;
                             margin-top: $grillesEspacementColonnes/2;
