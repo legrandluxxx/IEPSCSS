@@ -11,10 +11,12 @@
     
         .texte-taille-grand {
           font-size: $textesTailleGrand;
+          line-height: $textesTailleGrand;
         }
 
         .texte-taille-petit {
           font-size: $textesTaillePetit;
+          line-height: $textesTaillePetit;
         }
 
     /* Styles des textes */

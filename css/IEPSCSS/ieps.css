@@ -689,10 +689,12 @@ h6 {
 /* Taille des textes */
 .texte-taille-grand {
   font-size: 3rem;
+  line-height: 3rem;
 }
 
 .texte-taille-petit {
   font-size: 0.8rem;
+  line-height: 0.8rem;
 }
 
 /* Styles des textes */
