@@ -10,14 +10,18 @@
     /* Menus horizontaux */
         .menu-horizontal > ul, .menu-horizontal {
             list-style: none;
-            margin: 0;
-            padding: 0;
+            margin:     0;
+            padding:    0;
             & > li {
                 @media screen and (min-width: $ecransTailleSmall) {
                     display: inline-block;  
                 }
                 & > a {
                     display: block;
+                    @media screen and (max-width: $ecransTailleSmall) {
+                        margin-bottom: 1px;
+                        text-align: center;
+                    }
                 }
             }
         }
@@ -25,32 +29,29 @@
     /* Styles des menus */
         *[class*='menu-style-bouton'] {
             a {
-                padding: $menusPadding;
-                background: $menusCouleurBoite;
-                color: $menusCouleurTexte;
+                padding:         $menusPadding;
+                background:      $menusCouleurBoite;
+                color:           $menusCouleurTexte;
                 text-decoration: $menusDecorationTexte;
-                @include border-radius($menusRadiusBoite);
-                @media screen and (max-width: $ecransTailleSmall) {
-                    margin-bottom: 1px;
-                    @include border-radius(0);
-                    text-align: center;
+                @media screen and (min-width: $ecransTailleSmall) {  
+                    @include border-radius($menusRadiusBoite);
                 }
                 
                 &.actif {
                     background: $menusCouleurBoiteActif;
-                    color: $menusCouleurTexteActif;
+                    color:      $menusCouleurTexteActif;
                 }
                 &:hover {
                     background: $menusCouleurBoiteSurvol;
-                    color: $menusCouleurTexteSurvol;
+                    color:      $menusCouleurTexteSurvol;
                 }
                 &:active {
                     background: $menusCouleurBoiteActif;
-                    color: $menusCouleurTexteActif;
+                    color:      $menusCouleurTexteActif;
                 }
                 &:visited {
                     background: $menusCouleurBoiteVisite;
-                    color: $menusCouleurTexteVisite;
+                    color:      $menusCouleurTexteVisite;
                 }
             }
         }
