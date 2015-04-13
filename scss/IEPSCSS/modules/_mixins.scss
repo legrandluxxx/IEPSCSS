@@ -16,11 +16,11 @@
                @for $i from 1 through $nbreColonnes {
                     $largeur: ($largeurUnitaire * $i) - $grillesEspacementColonnes;
                     /* Dimension des items  */
-                        .grilles-item-#{$dim}-#{$i} {
+                        .grille-item-#{$dim}-#{$i} {
                             width: $largeur;
                         }
                    /* Décalages */
-                        .grilles-item-#{$dim}-decalage-#{$i} {
+                        .grille-item-#{$dim}-decalage-#{$i} {
                             margin-left: ($largeurUnitaire * $i) + ($grillesEspacementColonnes / 2); 
                         }
                }
@@ -33,7 +33,7 @@
            @for $i from 1 through $nbreColonnes {
                 $largeur: ($largeurUnitaire * $i) - $grillesEspacementColonnes;
                 /* Dimension des items  */
-                    .grilles-bloc-#{$dim}-#{$nbreColonnes}-#{$i} {
+                    .grille-bloc-#{$dim}-#{$nbreColonnes}-#{$i} {
                         & > * {
                             width: $largeur;
                             margin-top: $grillesEspacementColonnes/2;
