@@ -19,7 +19,7 @@
                             width: $largeur;
                         }
 
-                        .grille-item-#{$dim}-decalage-#{$i} {
+                        .grille-item-decalage-#{$dim}-#{$i} {
                             margin-left: ($largeurUnitaire * $i) + ($grillesEspacementColonnes / 2); 
                         }
                }
