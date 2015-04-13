@@ -1,18 +1,18 @@
 IEPSCSS
 =======
 
-Un framework CSS sémantique en français\n
-v0.1.1\n
-Basé sur SASS/COMPASS\n
+Un framework CSS sémantique en français   
+v0.1.1   
+Basé sur SASS/COMPASS   
 
-Modules :\n
-    - Boites\n
-    - Formulaires (à faire)\n
-    - Grilles (12/16/24)\n
-    - Blocs grille (12/16/24)\n
-    - Listes\n
-    - Menusv\n
-    - Textes\n
-    - Visibilite\n
+Modules :   
+    - Boites   
+    - Formulaires (à faire)   
+    - Grilles (12/16/24)   
+    - Blocs grille (12/16/24)   
+    - Listes   
+    - Menus   
+    - Textes   
+    - Visibilite   
 
 Ce framework est en cours de développement ...
