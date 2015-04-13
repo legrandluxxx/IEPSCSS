@@ -82,8 +82,8 @@
 // --------------------------------------------------------------
 // Paramètres des menus
 // --------------------------------------------------------------
-    $menusPadding:             1rem;
-    $menusRadiusBoite:         $boitesRadiusPrincipal;
+    $menusPadding:              1rem;
+    $menusRadiusBoite:          $boitesRadiusPrincipal;
     
     $menusCouleurBoite:         $liensCouleur;
     $menusCouleurBoiteSurvol:   $liensCouleurSurvol;
@@ -94,6 +94,7 @@
     $menusCouleurTexteSurvol:   #fff;
     $menusCouleurTexteActif:    #fff;
     $menusCouleurTexteVisite:   #fff;
+    $menusCouleurSeparation:    #fff;
     $menusDecorationTexte:      none;
     
 // --------------------------------------------------------------

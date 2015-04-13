@@ -13,7 +13,9 @@
             margin: 0;
             padding: 0;
             & > li {
-                display: inline-block;
+                @media screen and (min-width: $ecransTailleSmall) {
+                    display: inline-block;  
+                }
                 & > a {
                     display: block;
                 }
@@ -28,6 +30,11 @@
                 color: $menusCouleurTexte;
                 text-decoration: $menusDecorationTexte;
                 @include border-radius($menusRadiusBoite);
+                @media screen and (max-width: $ecransTailleSmall) {
+                    margin-bottom: 1px;
+                    @include border-radius(0);
+                    text-align: center;
+                }
                 
                 &.actif {
                     background: $menusCouleurBoiteActif;

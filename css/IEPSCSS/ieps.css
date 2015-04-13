@@ -954,8 +954,10 @@ h6 {
   margin: 0;
   padding: 0;
 }
-.menu-horizontal > ul > li, .menu-horizontal > li {
-  display: inline-block;
+@media screen and (min-width: 480px) {
+  .menu-horizontal > ul > li, .menu-horizontal > li {
+    display: inline-block;
+  }
 }
 .menu-horizontal > ul > li > a, .menu-horizontal > li > a {
   display: block;
@@ -970,6 +972,15 @@ h6 {
   -moz-border-radius: 1rem;
   -webkit-border-radius: 1rem;
   border-radius: 1rem;
+}
+@media screen and (max-width: 480px) {
+  *[class*='menu-style-bouton'] a {
+    margin-bottom: 1px;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    text-align: center;
+  }
 }
 *[class*='menu-style-bouton'] a.actif {
   background: red;
